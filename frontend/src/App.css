@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 18%;
+  height: 100%;
+}
+.content {
+  display: flex;
+  height:100%;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2rem 0rem;
+  font-size: calc(10px + 2vmin);
+  font-family: 'Roboto';
+}
+
+.check-icon {
+  background-color: dodgerblue;
+  position:absolute;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  top: 0.5rem;
+  right: 0.5rem;
+  color: white;
+  width:2rem;
+  height:2rem;
+  border-radius: 1.5rem;
+}
+
+.header-logo {
+  text-decoration: "none";
+}
+@media (max-width: 768px) {
+  .header-logo {
+    text-align: center;
+  }
+  .sidebar {
+    display: none;
+  }
+  .content {
+    width: 100%;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
