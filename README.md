@@ -1,6 +1,6 @@
-#Marketplace template made with Node.js and React
+# Marketplace template made with Node.js and React
 
-###devlopment environment installation
+### Development environment installation
 
 1. Install Node.js Stable Release
 
